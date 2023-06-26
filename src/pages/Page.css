@@ -1,0 +1,135 @@
+ion-searchbar.custom {
+    --background: #fff;
+    --color: #000;
+    --placeholder-color: #000;
+    --icon-color: #000;
+    --clear-button-color: #000;
+    --border-radius: 40px;
+}
+
+.container-list {
+    display: grid;
+    background-color: #f5f5f5;
+    gap: 20px;
+    padding: 10px;
+    border: none;
+}
+
+.input-wrapper {
+    border-style: none !important;
+}
+
+ion-item.custom {
+    --background: #fff;
+    border-radius: 40px;
+    border-color: #fff;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0px;
+    border: none;
+    border-style: none !important;
+    text-align: left;
+    border: none;
+}
+
+ion-item.custom2 {
+    --background: #fff;
+    color: #000;
+    white-space: pre-line;
+    overflow: hidden;
+
+}
+
+ion-page.custom {
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+ion-list.custom {
+    background-color: #f5f5f5;
+}
+
+.info {
+    color: #737373;
+    font-style: italic;
+    border-style: none;
+    font-weight: 600;
+}
+
+.info2 {
+    color: #737373;
+    border-style: none;
+}
+
+ion-card.custom {
+    color: #000;
+    background-color: #fff;
+}
+
+.header {
+    background-color: #f5f5f5 !important;
+}
+
+ion-card-title.custom {
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+ion-card-content.custom {
+    background-color: #f5f5f5 !important;
+}
+
+ion-label.custom {
+    color: #000;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    padding-left: 15px;
+}
+
+.container-countries {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.needs-list {
+    overflow-wrap: break-word;
+}
+
+a.custom {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0075F8
+}
+
+.block {
+    word-break: break-all;
+}
+
+.important {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.normal {
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
